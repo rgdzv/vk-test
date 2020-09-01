@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box; 
+}
+
+html {
+  font-size: 15px; 
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #000;
+  background: linear-gradient(to right, #6DCCFC, #E2E5E8);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; 
+}
+
+button {
+  cursor: pointer; 
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer; 
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto; 
+}
